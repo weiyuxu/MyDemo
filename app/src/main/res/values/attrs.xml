@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VoteView">
+        <attr name="vote_left_color" format="color" />
+        <attr name="vote_right_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="BarChartView">
+        <attr name="barchartcount" format="integer" />
+        <attr name="barchartduration" format="integer" />
+        <attr name="barchartshape" format="reference" />
+        <attr name="barchartheight" format="dimension" />
+        <attr name="barchartwidth" format="dimension" />
+        <attr name="barcharmarginleft" format="dimension" />
+        <attr name="barcharbackcolor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="DownloadProgressView">
+        <attr name="downloaded_color" format="color" />
+        <attr name="not_downloaded_color" format="color" />
+        <attr name="default_color" format="color" />
+        <attr name="text" format="string" />
+        <attr name="text_color" format="color" />
+    </declare-styleable>
+</resources>
