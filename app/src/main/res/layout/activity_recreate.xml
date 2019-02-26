@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
     <Button
         android:id="@+id/recreate_activity_btn"
-        android:layout_width="200dp"
-        android:layout_height="100dp"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:background="@color/black"
         android:text="点击跳转" />
-</LinearLayout>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:text="大大" />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textColor="@color/name_color"
+        android:text="与看你了到达庞大的爱的骄傲拍的骄傲怕大家碰到到点就安排的骄傲的" />
+</RelativeLayout>

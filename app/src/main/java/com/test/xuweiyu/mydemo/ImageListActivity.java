@@ -55,7 +55,7 @@ public class ImageListActivity extends Activity implements RecycleImageAdapter.I
         setContentView(R.layout.activity_image_list);
         initView();
 //        initImageList();
-        initPhoneInfo();
+//        initPhoneInfo();
     }
 
     private void initPhoneInfo() {
@@ -228,6 +228,8 @@ public class ImageListActivity extends Activity implements RecycleImageAdapter.I
     public void onItemClick(int position) {
 //        Intent intent = new Intent(ImageListActivity.this, RecreateActivity.class);
 //        startActivityForResult(intent, REQUEST_CODE);
+        Intent intent = new Intent(ImageListActivity.this, HorizontalActivity.class);
+        startActivity(intent);
 
     }
 
